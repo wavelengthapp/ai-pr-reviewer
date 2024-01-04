@@ -32,6 +32,8 @@ inputs:
       - https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#onpushpull_requestpull_request_targetpathspaths-ignore
       - https://github.com/isaacs/minimatch
     default: |
+      !android/.idea/**
+      !android/.gradle/**
       !dist/**
       !**/*.app
       !**/*.bin
